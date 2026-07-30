@@ -1,0 +1,28 @@
+center{
+    text-align: center;
+    margin: 5%;
+    
+}
+body{
+    background-color: #cbd3d4;
+    
+}
+h4{
+    color: #1809e4;
+    font-family: sans-serif;
+}
+
+div{
+    margin: 20px;
+    border-spacing: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(146, 209, 223);
+    opacity: 100%;
+    background-color: #e3f2f3;
+}
+br{
+    margin: 10px;
+}   
+
+

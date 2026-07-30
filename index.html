@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <center>
+        <h4>STUDENT REGISTRATION FORM</h4>
+        <p>we value your feedback. Please fill out the form.</p>
+
+        <div>
+            <label for="Name"> Full Name *</label> <br> <br>
+            <input type="text" name="Name" placeholder="Enter your Full Name" minlength="3" maxlength="30" required />
+        </div>
+
+        <div>
+            <label for="Email"> Email Address *</label><br> <br>
+            <input type="email" name="Email" placeholder="Enter your Email" required />
+        </div>
+
+        <div>
+            <label for="tel">Phone Number *</label> <br> <br>
+            <input type="tel" name="tel" placeholder="Enter your Phone Number" />
+        </div>
+
+        <div>
+            <label for="date">Date of Birth *</label> <br> <br>
+            <input type="date" name="date" />
+        </div>
+
+        <div>
+            <label for="gender">Gender *</label> <br> <br>
+            <input type="radio" name="gender" value="male" /> Male <br>
+            <input type="radio" name="gender" value="female" /> Female <br>
+            <input type="radio" name="gender" value="other" /> Other <br>
+        </div>
+
+        <div>
+        <label for="course">Course Intrested In *</label> <br> <br>
+        <select name="course">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="sql">SQL</option>
+            <option value="dbms">DBMS</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+        </select>
+        <br />
+        </div>
+
+        <div>
+        <label for="address">Your Message *</label> <br />
+        <br />
+        <textarea id="message" name="message" placeholder="Enter your Messsage" rows="4" cols="30" minlength="10"
+            maxlength="100" required></textarea>
+        <br />
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </center>
+</body>
+
+</html>
